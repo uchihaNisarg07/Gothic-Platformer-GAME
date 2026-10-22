@@ -1,73 +1,78 @@
 # LAST KNIGHT
+### A 2D Gothic Action-Platformer
 
-*A 2D Gothic Action-Platformer*
-
-**LAST KNIGHT** is a beginner-developed 2D action-platformer built in Unity, featuring a gothic atmosphere, pixel-art environments, platforming challenges, dangerous obstacles, and atmospheric background music.
-
-The objective is simple: navigate the level, avoid deadly tiles, and reach the finish point.
+> **⚠️ Project Status: Incomplete Prototype**
+>
+> This repository contains an early, playable prototype of **LAST KNIGHT** and does not represent the complete vision for the game. For the intended gameplay, mechanics, features, and overall direction of the full project, please refer to the **Game Design Document (GDD)** included in this repository.
 
 ## 🎮 Play the Game
 
-**Play online:** https://uchihanisarg07.itch.io/last-knight
+**[Play LAST KNIGHT on itch.io](https://uchihanisarg07.itch.io/last-knight)**
 
-## ✨ Features
+## 📖 About the Game
+
+LAST KNIGHT is a 2D gothic action-platformer developed in Unity. The prototype explores atmospheric pixel-art environments, basic platforming mechanics, dangerous obstacles, and a simple level-completion system.
+
+The current build serves as an initial implementation of the concept outlined in the Game Design Document.
+
+## ✨ Current Features
 
 - Gothic-inspired pixel-art environment
-- 2D character movement and jumping
+- 2D player movement and jumping
 - Hazard tiles that reset the player to the starting position
-- Background music
 - Start menu with a Play button
+- Background music
 - Level completion screen
-- Browser-playable Web build
+- Browser-playable build hosted on itch.io
 
 ## 🕹️ Controls
 
-| Action | Controls |
+| Action | Input |
 |---|---|
 | Move left | A / Left Arrow |
 | Move right | D / Right Arrow |
 | Jump | Spacebar |
 
-## 🛠️ Built With
+## 🛠️ Technologies Used
 
 - **Game Engine:** Unity 6
 - **Programming Language:** C#
-- **Platform:** WebGL / Browser
+- **Target Platform:** Web
 - **Version Control:** Git and GitHub
 
 ## 🚀 Running the Project Locally
 
 1. Clone or download this repository.
-2. Open Unity Hub.
-3. Add the downloaded project folder to Unity Hub.
-4. Open the project using a compatible Unity 6 editor.
-5. Open the `MainLevel` scene.
-6. Press Play in the Unity Editor.
+2. Open Unity Hub and add the project folder.
+3. Open the project using a compatible Unity 6 editor.
+4. Open the `MainLevel` scene.
+5. Press Play in the Unity Editor.
 
 ## 📁 Project Structure
 
 - `Assets/Art/` — Environment art and visual assets
-- `Assets/Audio/` — Background music and audio assets
+- `Assets/Audio/` — Audio assets and background music
 - `Assets/Characters/` — Character assets
 - `Assets/Scenes/` — Game scenes
 - `Assets/scripts/` — C# gameplay scripts
 - `Assets/Prefabs/` — Reusable game objects
 
-*Folder contents may vary with the project's current asset organization.*
+## 🎯 Project Objective
 
-## 🎯 Project Goal
+This project serves as a practical introduction to game development, covering Unity scene management, player movement, collision detection, UI interactions, game-state management, and Web deployment.
 
-This project was developed as a practical introduction to 2D game development, covering Unity scene setup, player movement, collision detection, UI interactions, game-state management, and Web deployment.
+The long-term vision and planned features are documented in the project's GDD.
 
 ## 🔗 Links
 
-- **Play the game:** https://uchihanisarg07.itch.io/last-knight
-- **Source code:** https://github.com/uchihaNisarg07/Gothic-Platformer-GAME
+- **Playable Prototype:** https://uchihanisarg07.itch.io/last-knight
+- **GitHub Repository:** https://github.com/uchihaNisarg07/Gothic-Platformer-GAME
+- **Game Design Document:** See the GDD Markdown file included in this repository.
 
-## 📄 License and Assets
+## 📄 Asset Credits and Licensing
 
-Third-party assets used in this project remain subject to their respective creators' licenses and terms. Please check the relevant asset licenses before reusing or redistributing them.
+Third-party assets used in this project remain subject to their respective creators' licenses and terms. Please consult the relevant asset documentation before reusing or redistributing them.
 
 ---
 
-*Made with Unity by Nisarg.*
+*Developed by Nisarg as a game development project.*
